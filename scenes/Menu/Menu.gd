@@ -11,7 +11,7 @@ func _ready():
 	var block_red = get_node("RedGenerator")
 	block_red.button_down.connect(count_new_instance)
 	var block_violet = get_node("VioletGenerator")
-	block_violet.button.down.connect(count_new_instance)
+	block_violet.button_down.connect(count_new_instance)
 	pass
 
 
